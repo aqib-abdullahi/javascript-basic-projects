@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 234, 240);
+    text-align: center;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+/*** CLASS SELECTORS ***/
+
+.buttons {
+    padding: 3% 3%;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: all .2s;
+}
+
+.buttons:hover {
+    background-color: rgb(242, 242, 242);
+    border: 2px solid rgb(137, 212, 245);
+    border-radius: 8px;
+    padding: 3% 3%;
+}
+
+.info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 550;
+    margin-top: 0;
+    color: rgb(76, 76, 77);
+}
+
+.image-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.job {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    margin-top: 0;
+    color: rgb(52, 181, 237);
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.title {
+    margin-top: 10vh;
+}
+
+.surprise {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 2% 3%;
+    border: 2px solid rgb(137, 212, 245);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    transition: all .2s;
+}
+
+.surprise:hover {
+    background-color: rgb(191, 191, 191);
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 2% 3%;
+    border: 2px solid rgb(137, 212, 245)
+}
+
+.section1 {
+    height: fit-content;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    max-width: 450px;
+    margin-top: 5vh;
+    border-radius: 20px;
+}
+
+.underline {
+    border-top: 5px solid rgb(103, 166, 218);
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
