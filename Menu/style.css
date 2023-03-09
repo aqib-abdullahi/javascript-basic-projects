@@ -21,6 +21,7 @@ button {
     font-size: .9rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 0.3s;
+    text-transform: capitalize;
 }
 
 button:hover {
@@ -60,6 +61,10 @@ p {
     text-align: center;
     margin: 1rem auto 3rem auto;
     width: 100%;
+}
+
+.filter-buttons-container {
+    text-align: center;
 }
 
 .main-section {
@@ -130,6 +135,16 @@ p {
 
 /** mobile view***/
 
+@media screen and (max-width: 770px) {
+    .image-container {
+        height: 100%;
+    }
+    .filter-buttons-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (min-width: 770px) {
     .meal-name,
     .meal-price {
@@ -138,10 +153,19 @@ p {
     .menu-items {
         width: 100%;
         flex-direction: row;
+        margin-top: 20px;
     }
     .image-container {
         width: 60%;
         margin-right: 4%;
+    }
+    img {
+        height: 150px;
+        width: 200px;
+    }
+    .filter-buttons-container {
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
 }
 
@@ -154,13 +178,22 @@ p {
     }
     .main-section {
         max-width: 1200px;
-        padding-left: 4%;
-        padding-right: 4%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
     .image-container {
-        width: 100%;
+        height: 120px;
+    }
+    img {
+        height: 170px;
+        width: 220px;
+    }
+    .filter-buttons-container {
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
     .menu-items {
+        margin-top: 60px;
         width: 550px;
         margin-left: 10px;
         margin-right: 10px;
