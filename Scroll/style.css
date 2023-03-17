@@ -104,10 +104,10 @@ ul {
 
 .content {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 25%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 85%;
 }
 
 .footer-p {
@@ -164,7 +164,7 @@ ul {
 }
 
 .drop {
-    height: 10.5rem;
+    height: 168px;
     transition: all .5s;
 }
 
