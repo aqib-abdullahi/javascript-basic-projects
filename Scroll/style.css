@@ -57,7 +57,7 @@ header {
 }
 
 header::after {
-    content: "afffffffdf";
+    content: "";
     background-image: url(./hero-bcg.jpeg);
     background-size: cover;
     background-position: center;
@@ -182,11 +182,14 @@ ul {
 /* DESKTOP VIEW */
 
 @media screen and (min-width: 800px) {
+    .content {
+        margin-top: 10.5rem;
+    }
     .menu-button {
         display: none;
     }
     .ul-link {
-        height: 168px;
+        height: auto;
         display: flex;
         flex-direction: column;
     }
