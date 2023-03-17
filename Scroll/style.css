@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+al {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+footer {
+    height: 10rem;
+    background-color: rgb(9, 44, 50);
+    text-align: center;
+    display: grid;
+    padding: 0 2rem;
+}
+
+h1 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(32, 82, 82);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: rgba(6, 120, 91, 0.4);
+    min-height: 100vh;
+}
+
+header::after {
+    content: "afffffffdf";
+    background-image: url(./hero-bcg.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+li>a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+section {
+    min-height: 80vh;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* CLASS SELECTORS */
+
+.content {
+    text-align: center;
+    margin-top: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.footer-p {
+    place-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.menu-button:hover {
+    rotate: 90deg;
+    transition: all .4s;
+}
+
+.nav-center {
+    padding: 1rem 2rem;
+    background-color: white;
+    display: grid;
+}
+
+.tour-button {
+    background-color: transparent;
+    border: 2px;
+    padding: 10px 25px;
+    border: solid 2px white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    transition: all .4s;
+}
+
+.tour-button:hover {
+    background-color: white;
+    color: rgba(21, 109, 87);
+}
+
+.ul-link {
+    height: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.drop {
+    height: 10.5rem;
+    transition: all .5s;
+}
+
+
+/* ID SELECTORS */
+
+#ou-s {
+    background-color: rgb(221, 240, 238);
+}
+
+
+/* MEDIA QUERIES  */
+
+
+/* DESKTOP VIEW */
+
+@media screen and (min-width: 800px) {
+    .menu-button {
+        display: none;
+    }
+    .ul-link {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        display: inline-block;
+    }
+    .nav-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    li {
+        margin: 0;
+        margin-right: .8rem;
+        margin-left: 1rem;
+    }
+    ul {
+        margin: 0;
+    }
+    ul-list {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .first-nav {
+        width: 100%;
+        background-color: white;
+    }
+    .nav-center {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
