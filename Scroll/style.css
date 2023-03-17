@@ -81,6 +81,7 @@ li>a {
 
 li {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -164,7 +165,7 @@ ul {
 }
 
 .drop {
-    height: 168px;
+    height: 175px;
     transition: all .5s;
 }
 
@@ -183,7 +184,7 @@ ul {
 
 @media screen and (min-width: 800px) {
     .content {
-        margin-top: 10.5rem;
+        margin-top: 7rem;
     }
     .menu-button {
         display: none;
