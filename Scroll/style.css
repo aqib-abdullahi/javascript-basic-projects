@@ -133,7 +133,6 @@ ul {
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
-    transition: all .4s;
 }
 
 .nav-center {
@@ -167,17 +166,12 @@ ul {
 }
 
 .drop {
-    height: 170px;
+    height: 175px;
     transition: all .5s;
 }
 
 
 /* ID SELECTORS */
-
-#mbutton:hover {
-    transform: rotate(90deg);
-    transition: all .4s;
-}
 
 #ou-s {
     background-color: rgb(221, 240, 238);
