@@ -52,9 +52,9 @@ h3 {
 }
 
 header {
-    background-color: rgba(6, 120, 91, 0.4);
+    box-shadow: inset 0 0 0 1000px rgba(6, 120, 91, 0.3);
     min-height: 100vh;
-    background-image: url(./hero-bcg.jpeg);
+    background: url(./hero-bcg.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -115,7 +115,7 @@ ul {
     margin-bottom: 0;
     width: 85%;
     padding-top: 7rem;
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
 }
 
 .footer-p {
@@ -133,11 +133,6 @@ ul {
     color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
-    transition: all .4s;
-}
-
-.menu-button:hover {
-    rotate: 90deg;
     transition: all .4s;
 }
 
@@ -178,6 +173,11 @@ ul {
 
 
 /* ID SELECTORS */
+
+#mbutton:hover {
+    transform: rotate(90deg);
+    transition: all .4s;
+}
 
 #ou-s {
     background-color: rgb(221, 240, 238);
