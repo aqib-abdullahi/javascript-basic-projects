@@ -118,11 +118,6 @@ ul {
     padding-bottom: 3rem;
 }
 
-.drop {
-    height: 175px;
-    transition: all .5s;
-}
-
 .footer-p {
     place-self: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -173,6 +168,11 @@ ul {
 .ul-link {
     height: 0;
     overflow: hidden;
+    transition: all .5s;
+}
+
+.drop {
+    height: 170px;
     transition: all .5s;
 }
 
