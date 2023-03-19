@@ -19,7 +19,7 @@ body {
 }
 
 footer {
-    height: 10rem;
+    height: 7rem;
     background-color: rgb(9, 44, 50);
     text-align: center;
     display: grid;
@@ -52,7 +52,7 @@ h3 {
 }
 
 header {
-    box-shadow: inset 0 0 0 1000px rgba(6, 120, 91, 0.3);
+    box-shadow: inset 0 0 0 1000px rgba(3, 108, 85, 0.465);
     min-height: 100vh;
     background: url(./hero-bcg.jpeg);
     background-size: cover;
@@ -97,6 +97,7 @@ p {
 section {
     min-height: 80vh;
     text-align: center;
+    margin: 0;
 }
 
 ul {
@@ -109,7 +110,7 @@ ul {
 
 .content {
     text-align: center;
-    margin-top: 0rem;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
@@ -139,6 +140,22 @@ ul {
     padding: 1rem 2rem;
     background-color: white;
     display: grid;
+}
+
+.second-nav {
+    display: none;
+}
+
+.to-top {
+    position: fixed;
+    right: 15px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    bottom: 15px;
+    background-color: rgb(10, 163, 124);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .tour-button {
@@ -185,7 +202,7 @@ ul {
 
 @media screen and (min-width: 800px) {
     .content {
-        margin-top: 0rem;
+        padding-top: 10rem;
     }
     .menu-button {
         display: none;
@@ -211,21 +228,57 @@ ul {
     ul {
         margin: 0;
     }
-    ul-list {
+    /* .ul-list {
         width: 50%;
-    }
-}
-
-@media screen and (min-width: 1000px) {
+    } */
     .first-nav {
         width: 100%;
         background-color: white;
+        display: none;
+    }
+    .fnav {
+        display: block;
+        position: fixed;
+        top: 0;
+        visibility: visible;
     }
     .nav-center {
         max-width: 1000px;
         margin: 0 auto;
     }
+    .sec-nav-center {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
     .content {
         max-width: 800px;
+    }
+    .second-nav {
+        display: block;
+    }
+    .sec-ul-link {
+        display: grid;
+        place-items: center;
+    }
+    .sec-al {
+        color: white;
+    }
+    .sec-al:hover {
+        color: aquamarine;
+        border-bottom: 3px solid rgb(29, 132, 112);
+        transition: all .2s;
+        padding-bottom: 2px;
+    }
+    .list {
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+    .al:hover {
+        border-bottom: 3px solid rgb(29, 132, 112);
+        transition: all .2s;
+        padding-bottom: 2px;
     }
 }
