@@ -13,7 +13,8 @@ toTop.addEventListener("click", function() {
     let h = document.body.getBoundingClientRect().height
     window.scrollTo({
         left: 0,
-        top: 0
+        top: 0,
+        behavior: "smooth"
     })
 })
 
