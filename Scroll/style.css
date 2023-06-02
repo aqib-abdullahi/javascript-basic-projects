@@ -156,6 +156,11 @@ ul {
     background-color: rgb(10, 163, 124);
     color: rgb(0, 0, 0);
     cursor: pointer;
+    display: none;
+}
+
+.showBtn {
+    display: block;
 }
 
 .tour-button {
